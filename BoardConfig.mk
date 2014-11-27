@@ -1,4 +1,4 @@
-;# Copyright (C) 2011 The Android Open Source Project
+# Copyright (C) 2011 The Android Open Source Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -173,9 +173,6 @@ WITH_DEXPREOPT_BOOT_IMG_ONLY := false
 
 # Use Cpu Upload path (webkit)
 TARGET_FORCE_CPU_UPLOAD := true
-
-# Skip building external/chromium_org
-PRODUCT_PREBUILT_WEBVIEWCHROMIUM := true
 
 # FM Radio
 BOARD_HAVE_FM_RADIO := true
